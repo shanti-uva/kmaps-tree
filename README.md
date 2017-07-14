@@ -49,7 +49,7 @@ Just make sure you have the %%ID%% pattern in your baseUrl option.
 ## Authors
 
 * *Initial work* - [Yuji](https://github.com/ys2n)
-* *Initial work* - [Ed](https://github.com/)
+* *Initial work* - [Ed](https://github.com/torma)
 * Modifications - [Derik](https://github.com/rderik)
 
 
