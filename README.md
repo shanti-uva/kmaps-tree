@@ -1,19 +1,19 @@
 # Kmaps Tree
 
-This project contains a small jQuery plugin using [fancytree](https://github.com/mar10/fancytree) to display the hierarchical tree for the SHANTI Knowledg Maps applications, you can read more [here](https://shanti.virginia.edu/wordpress/?page_id=4023) and visit the [Mandala tools here](https://mandala.shanti.virginia.edu/), the hierarchy tree you see on the site fly-out is what this plugin is in charge of.
+This project contains a small jQuery plugin using [fancytree](https://github.com/mar10/fancytree) to display the hierarchical tree for the SHANTI Knowledge Maps applications, you can read more [here](https://shanti.virginia.edu/wordpress/?page_id=4023) and visit the [Mandala tools here](https://mandala.shanti.virginia.edu/), the hierarchy tree you see on the site fly-out is what this plug-in is in charge of.
 
 ## Getting Started
 
-To add this plugin to your Kmaps application you can download the code from the git repository:
+To add this plug-in to your Kmaps application you can download the code from the git repository:
 * [https://github.com/shanti-uva/kmaps-tree](https://github.com/shanti-uva/kmaps-tree)
 
-You can clone it or just download the jQuery plugin.
+You can clone it or just download the jQuery plug-in.
 
 ### Prerequisites
 
-The plugin requires:
+The plug-in requires:
 
-* Kmaps app (this plugin was designe for the KMAPS apps so you need an instance for it to run)
+* Kmaps app (this plug-in was designed for the KMAPS apps so you need an instance for it to run)
 * Solr index where the tree data is stored (and consulted)
 * [fancytree](https://github.com/mar10/fancytree)
 
@@ -36,7 +36,7 @@ $(document).ready(function(){
 });
 ```
 
-The baseURL option requires you to define the url and use the pattern %%ID%% that will be replaced by the id of each node respectively. It was designed this way so it would work for Rails applications that have the format:
+The baseURL option requires you to define the URL and use the pattern %%ID%% that will be replaced by the id of each node respectively. It was designed this way so it would work for Rails applications that have the format:
 
 `HTTPS://SERVER/features/ID`
 
@@ -53,6 +53,6 @@ Just make sure you have the %%ID%% pattern in your baseUrl option.
 * Modifications - [Derik](https://github.com/rderik)
 
 
-## Acknowledgments
+## Acknowledgements
 
 * To everyone at [SHANTI](https://github.com/orgs/shanti-uva/people)
